@@ -1,6 +1,6 @@
-
 import { Button } from "@/components/ui/button";
 import { ShoppingCart, Check, Shield, Star } from "lucide-react";
+import { AspectRatio } from "@/components/ui/aspect-ratio";
 
 const Index = () => {
   return (
@@ -41,6 +41,45 @@ const Index = () => {
           </div>
         </div>
       </div>
+
+      {/* Product Details Section */}
+      <section className="py-8 sm:py-12">
+        <div className="container mx-auto px-4 sm:px-6">
+          <div className="max-w-3xl mx-auto">
+            <div className="mb-6">
+              <AspectRatio ratio={16/12} className="bg-white rounded-lg overflow-hidden">
+                <img
+                  src="/lovable-uploads/406210b8-f2c6-4e01-9f6c-6ab3a17f177f.png"
+                  alt="Corretor Protetor Ortopédico Para Joanete"
+                  className="object-contain w-full h-full"
+                />
+              </AspectRatio>
+            </div>
+            <div className="space-y-4 text-gray-700">
+              <h3 className="text-xl sm:text-2xl font-semibold text-gray-900">
+                Corretor Protetor Ortopédico Para Joanete Calos Tira Dor
+              </h3>
+              <p className="text-sm sm:text-base">
+                O Protetor Ortopédico é perfeito após aquele dia cansativo de aperto nos pés. 
+                Esse dispositivo ortopédico é extremamente confortável e relaxante ajudando a aliviar as dores causada pela Joanete. 
+                Utilizar o protetor evita dores, inchaço e desconforto, você ajusta a pressão do dispositivo de forma simples e prática. 
+                Pode ser usado no pé esquerdo ou direito.
+              </p>
+              <div className="bg-gray-50 p-4 rounded-lg">
+                <h4 className="font-semibold mb-3">Especificações Técnicas:</h4>
+                <ul className="space-y-2 text-sm sm:text-base">
+                  <li>- Modelo: Protetor Para Joanete Articulado</li>
+                  <li>- Material: Espuma, Velcro e Plástico</li>
+                  <li>- Cor: Branco</li>
+                  <li>- Tamanho: Único</li>
+                  <li>- Dimensões Aprox.: 14cm (Comprimento) X 4cm (Altura) X Largura Ajustável</li>
+                  <li>- Peso: 25g</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Benefícios Section */}
       <section className="bg-gray-50 py-12 sm:py-16">
