@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ShoppingCart, Check, Shield, Star } from "lucide-react";
 import { AspectRatio } from "@/components/ui/aspect-ratio";
+import { CreditCard, ShieldCheck, Truck, Clock } from "lucide-react";
 
 const Index = () => {
   return (
@@ -32,7 +33,7 @@ const Index = () => {
             <div className="flex-1 w-full max-w-[280px] sm:max-w-md mx-auto mt-6 md:mt-0">
               <div className="relative aspect-square">
                 <img
-                  src="/lovable-uploads/525d92e8-d486-4638-a6bc-b891322e64f8.png"
+                  src="/lovable-uploads/cebe0718-2cc2-4cdf-9e66-0795ac3cb8e6.png"
                   alt="Antes e depois do corretor de joanete"
                   className="w-full h-full object-cover rounded-lg shadow-xl"
                 />
@@ -136,9 +137,32 @@ const Index = () => {
           <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-4 sm:mb-6">
             Não deixe a dor limitar sua vida
           </h2>
-          <p className="text-base sm:text-lg mb-6 sm:mb-8">
-            Corrija seu joanete agora e recupere seu bem-estar!
-          </p>
+          <div className="mb-6">
+            <p className="text-lg mb-2">De <span className="line-through">R$ 129,99</span> por apenas:</p>
+            <p className="text-4xl sm:text-5xl font-bold mb-4">R$ 99,99</p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 max-w-4xl mx-auto mb-8">
+              <div className="flex items-center justify-center gap-2 bg-white/10 rounded-lg p-3">
+                <CreditCard className="h-5 w-5" />
+                <span className="text-sm">Pague somente na entrega</span>
+              </div>
+              <div className="flex items-center justify-center gap-2 bg-white/10 rounded-lg p-3">
+                <ShieldCheck className="h-5 w-5" />
+                <span className="text-sm">10 dias de garantia</span>
+              </div>
+              <div className="flex items-center justify-center gap-2 bg-white/10 rounded-lg p-3">
+                <Truck className="h-5 w-5" />
+                <span className="text-sm">Frete grátis</span>
+              </div>
+              <div className="flex items-center justify-center gap-2 bg-white/10 rounded-lg p-3">
+                <ShieldCheck className="h-5 w-5" />
+                <span className="text-sm">Compra 100% segura</span>
+              </div>
+              <div className="flex items-center justify-center gap-2 bg-white/10 rounded-lg p-3">
+                <Clock className="h-5 w-5" />
+                <span className="text-sm">Receba em 24 horas</span>
+              </div>
+            </div>
+          </div>
           <Button 
             size="lg" 
             className="bg-white text-teal-600 hover:bg-gray-100 text-sm sm:text-base w-full sm:w-auto"
