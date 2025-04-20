@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { ShoppingCart, Check, Shield, Star } from "lucide-react";
 import { AspectRatio } from "@/components/ui/aspect-ratio";
@@ -90,13 +91,13 @@ const Index = () => {
             <div className="bg-white p-6 rounded-lg shadow-md">
               <div className="mb-4">
                 <img 
-                  src="/lovable-uploads/9e2d29e0-3a9c-4fe7-80b0-322ddfce4b75.png"
-                  alt="Antes e depois - Ana Souza"
+                  src="/lovable-uploads/d91e76d0-61bd-4e20-a2f9-ad68fc86ac5e.png"
+                  alt="Antes e depois - Júlia Ribeiro"
                   className="w-full h-auto rounded-lg"
                 />
               </div>
               <p className="italic mb-4 text-sm sm:text-base text-gray-700">"Incrível como um produto pode fazer tanta diferença. Recomendo para todos que sofrem com joanetes."</p>
-              <div className="font-semibold text-gray-900 text-sm sm:text-base">- Ana Souza, 47 anos - SP</div>
+              <div className="font-semibold text-gray-900 text-sm sm:text-base">- Júlia Ribeiro, 32 anos - Rio de Janeiro</div>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
               <div className="mb-4">
