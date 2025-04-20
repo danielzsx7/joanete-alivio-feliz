@@ -24,7 +24,7 @@ const Index = () => {
                 <Button 
                   size="lg" 
                   className="bg-teal-600 hover:bg-teal-700 text-sm sm:text-base w-full sm:w-auto"
-                  onClick={() => window.location.href = 'https://pay.cakto.com.br/386udms_340566'}
+                  onClick={() => window.location.href = 'https://entrega.logzz.com.br/pay/mem766ngz/ahcny-1-unidade-promo'}
                 >
                   Quero corrigir meu joanete agora! <ShoppingCart className="ml-2 h-4 w-4 sm:h-5 sm:w-5" />
                 </Button>
@@ -77,16 +77,37 @@ const Index = () => {
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
             <div className="bg-white p-6 rounded-lg shadow-md">
+              <div className="mb-4">
+                <img 
+                  src="/lovable-uploads/0dc23d23-4f67-4cd3-be4f-b0cd41b18b37.png"
+                  alt="Antes e depois - Ana Souza"
+                  className="w-full h-auto rounded-lg"
+                />
+              </div>
               <p className="italic mb-4 text-sm sm:text-base text-gray-700">"Depois de anos de dor, finalmente encontrei uma solução sem cirurgia. Meu joanete melhorou muito!"</p>
-              <div className="font-semibold text-gray-900 text-sm sm:text-base">- Maria Silva</div>
+              <div className="font-semibold text-gray-900 text-sm sm:text-base">- Ana Souza, 47 anos - SP</div>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
+              <div className="mb-4">
+                <img 
+                  src="/lovable-uploads/9e2d29e0-3a9c-4fe7-80b0-322ddfce4b75.png"
+                  alt="Antes e depois - Ana Souza"
+                  className="w-full h-auto rounded-lg"
+                />
+              </div>
               <p className="italic mb-4 text-sm sm:text-base text-gray-700">"Incrível como um produto pode fazer tanta diferença. Recomendo para todos que sofrem com joanetes."</p>
-              <div className="font-semibold text-gray-900 text-sm sm:text-base">- João Oliveira</div>
+              <div className="font-semibold text-gray-900 text-sm sm:text-base">- Ana Souza, 47 anos - SP</div>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
+              <div className="mb-4">
+                <img 
+                  src="/lovable-uploads/34698b4e-37cc-4a05-8c21-b5fb2a983f02.png"
+                  alt="Antes e depois - Marcos Alves"
+                  className="w-full h-auto rounded-lg"
+                />
+              </div>
               <p className="italic mb-4 text-sm sm:text-base text-gray-700">"Praticidade e eficiência. Agora consigo usar meus sapatos sem dor. Muito obrigado!"</p>
-              <div className="font-semibold text-gray-900 text-sm sm:text-base">- Ana Souza</div>
+              <div className="font-semibold text-gray-900 text-sm sm:text-base">- Marcos Alves, 45 anos - SP</div>
             </div>
           </div>
         </div>
@@ -166,7 +187,7 @@ const Index = () => {
           <Button 
             size="lg" 
             className="bg-white text-teal-600 hover:bg-gray-100 text-sm sm:text-base w-full sm:w-auto"
-            onClick={() => window.location.href = 'https://pay.cakto.com.br/386udms_340566'}
+            onClick={() => window.location.href = 'https://entrega.logzz.com.br/pay/mem766ngz/ahcny-1-unidade-promo'}
           >
             Quero meu corretor de joanete! <ShoppingCart className="ml-2 h-4 w-4 sm:h-5 sm:w-5" />
           </Button>
