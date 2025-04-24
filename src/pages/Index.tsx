@@ -25,7 +25,7 @@ const Index = () => {
                 <Button 
                   size="lg" 
                   className="bg-teal-600 hover:bg-teal-700 text-sm sm:text-base w-full sm:w-auto"
-                  onClick={() => window.location.href = 'https://entrega.logzz.com.br/pay/mem766ngz/ahcny-1-unidade-promo'}
+                  onClick={() => window.location.href = 'https://entrega.logzz.com.br/pay/mem766ngz/bqkvo-'}
                 >
                   Quero corrigir meu joanete agora! <ShoppingCart className="ml-2 h-4 w-4 sm:h-5 sm:w-5" />
                 </Button>
@@ -188,7 +188,7 @@ const Index = () => {
           <Button 
             size="lg" 
             className="bg-white text-teal-600 hover:bg-gray-100 text-sm sm:text-base w-full sm:w-auto"
-            onClick={() => window.location.href = 'https://entrega.logzz.com.br/pay/mem766ngz/ahcny-1-unidade-promo'}
+            onClick={() => window.location.href = 'https://entrega.logzz.com.br/pay/mem766ngz/bqkvo-'}
           >
             Quero meu corretor de joanete! <ShoppingCart className="ml-2 h-4 w-4 sm:h-5 sm:w-5" />
           </Button>
